@@ -1,0 +1,69 @@
+<DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Janaína Rosa</title>
+     </head>
+<body>
+ 	<header>
+	<img src="https://acrilex.com.br/wp-content/uploads/2017/05/educadores28_2_01.jpg" alt="Ilustração da Arte Barroca">
+	<h1>Janaína Rosa</h1>
+	<header>
+
+    <section>
+ <header>
+ <h2>posts</h2>
+ <header>
+
+		<article>
+		<header>
+		<h3>Posts #1</h3>
+		<img src = "https://acrilex.com.br/wp-content/uploads/2017/05/educadores28_2_01.jpg" alt= "Ilustração da Arte Barroca">
+		<header>
+		<p>“A Lâmpada do Sol tinha encuberto,
+Ao Mundo, sua luz serena e pura,
+E a irmã dos três nomes descuberto
+A sua tersa e circular figura.
+Lá do portal de Dite, sempre aberto,
+Tinha chegado, com a noite escura,
+Morfeu, que com subtis e lentos passos
+Atar vem dos mortais os membros lassos.”
+
+(Trecho da obra <a href="http://www.cervantesvirtual.com/obra-visor/prosopopeia--0/html/ffc951fc-82b1-11df-acc7-002185ce6064_1.html"target="_blank">“Prosopopeia”</a> de <a href="mailton:jiaronaso@yahoo.com.br">Bento Teixeira</a>) </p>
+		<article>
+    <section>
+	<footer>
+	<ul>
+		<ol>
+		<li>
+		<a href= "mailton:jiaronaso@yahoo.com.br">Jiaronaso@yahoo.com.br</a>
+		</li>
+			<li>
+			<a href="https://github.com/JanainaRosa" target = "_blank">GitHub Perfil</a>
+			</li>
+		<ol>
+	</footer>
+<body>
+</html>
+
+
+____________________________________________________________________
+Semantica
+<section> lista de artigos
+<header> cabeçalho da pagina
+<article> conteudo relevante art blog
+<aside> relaciaonda ao conteudo principal link de autor
+<footer> roda pe da pagina ou párte da pg
+<h1> <h6> - pode ser o titulo 
+
+listas - agrupar
+
+<ul>
+item 1
+item 2 (a ordem das lista não é importante)
+
+<ol>
+1. item 1
+2. item 3 ( a ordem dos item é importante é representa por letras numeros e algarismos romanos)
+
+<li> (é um item da lista)
