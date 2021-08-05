@@ -1,0 +1,364 @@
+1995 - netscape - moca - livescrit-javascript 
+brendan eich
+dsps-processorde dados digitais
+
+ecmascript = netscap 1996 especificacao da linguagem
+de programacao ecma262
+
+tc39= comoiteresponsabel pelaevolucao javascript
+
+fluxo proposta:
+stage 0:strawman
+
+
+stage 1: proposal
+
+
+stage 2: draft
+
+
+stage 3: candidate
+
+stage 4: finished
+
+ES2018
+
+operador rest/spreAD
+ITERAÇÃO ASSÍNCRONA
+PROMISE.PROTOTYPE.FINALLY()
+
+ES.NEXT- q possui futuras implementações babel
+
+Linguagem interpretada - javascrpt 
+cod éexecutado de cima para baixo
+
+tipagen fraca e dinamica
+n ha verificacao em todasasoperações
+ dinamica- n precida especificar o tipo 
+
+typescript
+add inteface, enuns tipes generics
+
+
+flow
+semelhante typescript 
+
+
+funcoes de 1° clasee e ordem maior
+pode ser atribuida e passar por argumentos
+
+closure
+escopo lexico
+capacidade da função lembrar o escopo que foi criado
+
+3 tipes deescopo
+escopo bloco{}
+escopo global//
+escopo de função
+
+currying - mais comum em linguagens funcionais
+tecnica tran com n parametros rm apenas uma e um parametro
+
+hoisting
+levantar ou suspender algo
+varaiveis e fnções
+variavel so eleva a criação da variavel
+finçõ é levantada como um totodo
+
+imutabilidade
+dados imutaveis
+
+
+tipos e variaves
+var- n respeita o escopo de bloco
+let
+const- criar constante, qnd atrbiu tipo rpimitivo
+não vai pernitir q mude de valor
+se for objto permmite que altere
+
+
+TIPOS PRIMITIVOS- ANTES SÓ TINHA 5
+STRING - respresenta texto 
+NUMBER - 
+BOOLEAN- true or false
+NULL - p/ representar nulo
+UNDEFINED - var existe mais não foi cetada atribuida um valor para ela
+SYMBOL- ADD NO ES6 - permite criar valores únicos
+OBJECT - 
+FUNCTION - tambem é obj permite que obj seja chamado 
+ARRAY - tabm obj relaçao com itens, consegue organizar
+
+length= qnt de caracteres
+split = quebra a string
+replace= trocar o texto umaparte aceita rejex
+slice= retorna uma fatia da string (começo e o fim)
+substr= começo e qnt de caracteres
+typeof= tipo da variavel
+tofixed= passa o nume de casa decimais
+parsefloat= permite q pasa astring permite casa decimais
+parseInt=permite q pasa astring não permite casa decimais
+null= 
+object= keys= retorna a chave
+values= restarna os valores
+entries= restona um arrays de arrays 2 valores nome da propri e vaor
+assign= aceita n outros objetos arreya vazio {} para criar um novo
+freezer= recebe obj e nãó consegue altera-lo de jeito nenhum
+seal=  ñ permite que crie edelete, mais consegue alterar valos
+
+
+symbol= atributo único ñ sobrescreve
+não sao enumereibos
+
+(functin array = objeto)
+functions= 
+arrowfn= não recebe aprametros
+tem o return implicito mais enxuto
+
+isarray- ver se é aarayi
+map= cria um noc array
+reduce= permite q transfome o array em umm outro tipo
+
+
+operadores
+binário= 2 operados
+unário= apenas um operando antes ou depois
+incremento= tanto antes como depois
+
+
+aritmeticos
+mod= %
+incremnto= ++
+decremento= --
+negação= -
+adicção= +
+exponencição= **
+agrupamento= ()
+
+
+atribuição
+adição= x += y
+subtração= x -= y
+multiplicação= x *= y
+divisão= x / = y
+rsto= x % = y
+
+
+
+
+
+comparação
+
+igualdade = 3 == '3'
+ não igual = var2 ! = "3"
+estritamente igual = 3 ===var1
+estritamente não igual= 3! =='3'
+maior que = "12" > 2
+maior que ou igual = var1 >= 3
+menor que = "12" < "2"
+menor que ou igual = var2 <= 5
+
+
+condicional
+ternário
+consição ? valor:valor2
+se for true recebe o 1° valor
+se for falso recebe o 2° valor
+
+
+
+condicional
+logicos
+spredoperation
+
+
+lógicos
+and e o or
+and= exp && exp1
+
+or=exp || exp1
+
+not logico= !exp1
+
+!! conversão para boleano
+
+
+
+
+
+spread = consegue interar a cada item e passar para
+o parametro( ex cabeça, ...(inclusão, ale, opo)
+
+em function:
+function fn(x, y, z){}
+var args = [0, 1, 2];
+fn (...args);
+vai valer 0, 1, 2
+
+delete = unario
+typeof = retoena caso tipo
+ 
+
+in =  retorna verdadeiro ou false
+ apartir de uma array
+
+instanceof = retrna true or false
+
+estruturas condicionais e repetição
+
+if else ,else if
+´so if quando quer que condinue a conta
+
+
+switch
+case
+igual o if else
+basta eccrimentar nos case nao precisa declarar
+break é como se fosse o else
+
+estruturas de repetição
+
+for- 
+while- enqunto fro vdd ele vai executar
+do..while- executa 1° edepois ve a condição
+for...in-
+continue- pular uma inteção
+break-sai da execução
+
+
+orientaçao a objetas
+
+herança -
+baseada en prototipos- aramzena as deficiçoes dos nossos
+objtos
+ptototype
+_protp_
+contructor
+
+
+
+classes -
+modificadores de acesso -
+encapsulamento -
+static -
+
+
+
+
+
+ES6
+simplificação da herança de prototipos
+palavras chave class
+
+
+class = é mesma coisa da function
+
+
+modificador de acesso= javascript não tem
+não tem suporte nos broweser
+
+encapsulamento
+ocutar detalhes do funcionamento interno
+
+#atributo privado
+
+static
+permite que acesse medotos e atribudos sem "não sei" o que da classe
+
+desing patterns = padroes de projetos
+soluções generalistas p/ problemas recorrentes durante o desenvolvimento
+de um software. defição de alto nivel.
+1978 - chistopher alexandre, sara ishikawa e murray silvertrin
+253 desafio problemas
+formato - nome, Exemplo, contexto, problema e solução.
+ 
+1987 - kent beck ward cinnunghan
+5 padroes de objeto
+
+
+1994 - gand of four
+erich gamma, richard helm, ralph jonson e joh vlissides
+escreveram um livro " desiner patternse elementes ..."
+tipos: criação estrutural e comportamentaç
+
+padroes criação-adiam o processo de criaçao de objetos
+
+abstract factory
+builder
+factory method
+prototype
+singleton
+
+
+
+padroes estrurais- sepreocupam com a forma calsses e objs são compostos
+
+adapter
+brisge
+composite
+decorator
+facade
+business delegate
+flyweight
+proxy
+
+PADROES COMPORTAMENTAIS -
+CHAIN OF RESPONSIBILITY
+command
+interpreter
+iterator
+mediator
+observer
+state
+strategy
+template method
+visitor
+
+patterbs mais utilizados
+factory - que não vão new
+singleton - jquery
+decorator -recebe outra função e estende seu comportamento
+observer- notifica qnd há mudança todos
+module
+
+
+ JAVASCRIPT ES6
+
+
+Arrow Functions
+=>
+funções anobnimas
+
+
+var sum = (a , b) => a + b;
+
+var sum = a => a ;
+
+
+
+
+Quando o valor vier de uma variável com o mesmo nome da propriedade ou método.
+
+
+
+Sim, utilizando colchetes.
+
+O objeto 'obj'.
+
+
+A característica que permite podermos utilizar funções para definir valores de um argumento e a mesma só será invocada quando o argumento for indefinido.
+
+Usando o caractere '=' seguido do valor que queremos atribuir ao argumento.
+
+Não podemos criar funções construtoras usando arrow functions.
+
+Sim, mas apenas se o argumento vier anteriormente ao que está sendo atribuído.
+
+A palavra function, o seu nome de maneira opcional, os parênteses e as chaves para o corpo.
+
+Funções anônimas.
+
+Quando existir apenas um argumento e nada mais.
+
+
+
+

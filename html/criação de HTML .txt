@@ -1,51 +1,132 @@
 <DOCTYPE html>
+
 <html>
-	<head>
-	<meta charset="utf-8">
-	<title>Janaína Rosa</title>
+
+    <head>
+    <meta charset="utf-8">
+    <title>Janaína Rosa</title>
+    <link rel="stylesheet" href="style.css">
      </head>
+
 <body>
+
  	<header>
-	<img src="https://acrilex.com.br/wp-content/uploads/2017/05/educadores28_2_01.jpg" alt="Ilustração da Arte Barroca">
-	<h1>Janaína Rosa</h1>
-	<header>
 
+    <p>
+      <img src="https://acrilex.com.br/wp-content/uploads/2017/05/educadores28_2_01.jpg"width="300" height="300" align="left" alt="Ilustração da Arte Barroca" class="photo">
+
+
+    <h1 id ="title">Janaína Rosa</h1>
+    <header>
+    
     <section>
- <header>
- <h2>posts</h2>
+
  <header>
 
-		<article>
-		<header>
-		<h3>Posts #1</h3>
-		<img src = "https://acrilex.com.br/wp-content/uploads/2017/05/educadores28_2_01.jpg" alt= "Ilustração da Arte Barroca">
-		<header>
-		<p>“A Lâmpada do Sol tinha encuberto,
+ <h2 class="subtitle">posts</h2>
+
+ <header>
+
+    	<article class="post">
+    	<header>
+    	<h3 class="post_title" >Posts #1</h3>
+    	<img src = "https://acrilex.com.br/wp-content/uploads/2017/05/educadores28_2_01.jpg" alt= "Ilustração da Arte Barroca"class ="post_image">
+    	<header>
+    	<p class="post_content">“A Lâmpada do Sol tinha encuberto,
+
 Ao Mundo, sua luz serena e pura,
+
 E a irmã dos três nomes descuberto
+
 A sua tersa e circular figura.
+
 Lá do portal de Dite, sempre aberto,
+
 Tinha chegado, com a noite escura,
+
 Morfeu, que com subtis e lentos passos
+
 Atar vem dos mortais os membros lassos.”
 
-(Trecho da obra <a href="http://www.cervantesvirtual.com/obra-visor/prosopopeia--0/html/ffc951fc-82b1-11df-acc7-002185ce6064_1.html"target="_blank">“Prosopopeia”</a> de <a href="mailton:jiaronaso@yahoo.com.br">Bento Teixeira</a>) </p>
-		<article>
+          (Trecho da obra <a href = ""http://www.cervantesvirtual.com/obra-visor/prosopopeia--0/html/ffc951fc-82b1-11df-acc7-002185ce6064_1.html"target="_blank">"“Prosopopeia”</a> de Bento Teixeira) </p>
+
+    	<article>
     <section>
-	<footer>
-	<ul>
-		<ol>
-		<li>
-		<a href= "mailton:jiaronaso@yahoo.com.br">Jiaronaso@yahoo.com.br</a>
-		</li>
-			<li>
-			<a href="https://github.com/JanainaRosa" target = "_blank">GitHub Perfil</a>
-			</li>
-		<ol>
-	</footer>
+    <footer>
+    <ul>
+    	<ol>
+    	<li>
+    	<a href= "mailton:jiaronaso@yahoo.com.br">Jiaronaso@yahoo.com.br</a>
+    	</li>
+    		<li>
+    		<a href="https://github.com/JanainaRosa" target = "_blank">GitHub Perfil</a>
+    		</li>
+    	<ol>
+    </footer>
+
 <body>
+
 </html>
 
+
+
+#CSS3
+
+body{
+  background:#FFDEAD;
+  font-family; verdana;
+  max-width: 900px;
+  margin: auto;
+}
+
+.photo{
+  border:1px solid #505050;
+    border-radius: 40%;
+    margin: 80px;
+  padding: 15px;
+}
+
+#title,.subtitle,.post_title {
+  color: #A52A2A;
+  text-align: justify
+}
+#title{
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: justify
+
+}
+a{
+  text-decoration: underline;
+  color: 	#1C1C1C
+}
+
+.post_title {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.post{
+  background: #A0522D;
+  padding: 15px;
+  border: 3px solid #505050;
+  margin-bottom; 15px;
+  border-radius:5px;
+}
+.post_image{
+  margin-bottom:20px
+     border-radius: 40% ;
+  border:1px solid #505040;
+    border-radius: 30%;
+  width: 100px;
+}
+.post_content{
+  margin:20;
+  margin-bottom:15px;
+  text-transform: capitalize;
+  text-align: justify;
+}
 
 ____________________________________________________________________
 Semantica

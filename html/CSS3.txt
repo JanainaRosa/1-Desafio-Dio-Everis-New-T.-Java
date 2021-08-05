@@ -1,0 +1,55 @@
+
+
+___________________________________
+CSS 3 é uma linguagem de estilo
+é formata por um seletor ou grupo de seletores
+declarações
+um ID só pode ser usado uma vez na pagina
+ (. header)classe é precedida por um ponto 
+ (# header) id é precedidade por #
+
+os titulos e subtitulos
+Na edição do CSS3 deverão conter um ponto antes da palavra ex.:
+#title, .subtitle, .post_title{}
+
+e tambem antes da alteração os post_title:
+.post_title{
+font-size:16px;
+fonte-style: italac;
+}
+
+representa cada html com uma caixa retangular
+que se chama boxmodel css altera a aparencia
+4 camadas
+margem = são espaçamento entre elementos
+bordas = sircundam o ppedem e o conteudo as aparencias entre elementos
+como largura e cor.
+padding= entre a broda e conteudo
+content= o que seu bloco representa texto imagem e conteudo
+
+font-family: altera a fonte do texto
+fonte-size= tamaho to texto
+fonte-style= moda do texto tipo italico
+fonte-weight= altera o peso do texto( bold = nedrito)
+
+uppercase= coloca todo o texto em caixa alta
+lowercase=coloca todo o texto em caixa baixa
+capitalize=coloca todas as primeiras letras de cada palavra em maiuscula
+
+text-decoration= é usado p/ dar destaque ao texto
+underline= coloca linha abaixo da palavra
+overline=acima
+line-throught= ao centro cortando a palavra
+
+DIMENSÕES E ALINHAMENTO
+
+width
+height= ajusta largura e altura respectivamente
+
+max-width
+max-height= altura e largura maxima que esse elementos podem ter
+
+margin=alton alinha algum elemento automaticamnte-espaçõ entre as coisa
+
+
+texto-aligt= alinha texto 
